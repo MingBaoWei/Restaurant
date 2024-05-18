@@ -9,6 +9,7 @@ import { MenusComponent } from './menus/menus.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { CategoriaComponent } from './categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     MenusComponent,
     ReservasComponent,
     InicioComponent,
-    PerfilComponent
+    PerfilComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,

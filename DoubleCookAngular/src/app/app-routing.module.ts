@@ -5,6 +5,7 @@ import { MenusComponent } from './menus/menus.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { AutenticacionComponent } from './autenticacion/autenticacion.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { CategoriaComponent } from './categoria/categoria.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
@@ -12,7 +13,7 @@ const routes: Routes = [
   { path: 'menus', component: MenusComponent },
   { path: 'reservas', component: ReservasComponent },
   { path: 'autenticacion', component: AutenticacionComponent },
-  { path: 'perfil', component: PerfilComponent },
+  { path: 'perfil', component: PerfilComponent }
 ];
 
 @NgModule({
